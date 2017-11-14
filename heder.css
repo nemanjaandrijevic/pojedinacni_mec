@@ -1,0 +1,66 @@
+.heder {
+    background-color: #1e2128;
+    color: #a5a6a9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.vreme {
+    flex: 0 0 60px;
+    text-align: center;
+}
+
+.naslov {
+    flex: 1 0 auto;
+    padding-left: 20px;
+}
+.oznake {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.r, .p {
+    flex: 0 1 12px;
+    padding-left: 20px;
+}
+
+.crveni-karton, .zuti-karton, .korneri {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    height: 15px;
+    padding-left: 20px;
+}
+
+.sprite {
+    background-repeat: no-repeat;
+    background-image: url(sprite.png);
+    display: block;
+    align-items: center;
+    width: 12px;
+    height: 15px;
+}
+
+.c-k-sprite {
+    flex:  0 1 12px;
+    background-position: -11px -260px;
+
+}
+
+.z-k-sprite {
+    flex: 0 1 12px;
+    background-position: -194px -260px;
+
+}
+
+.br-kornera {
+    flex: 0 0 12px;
+    background-position: -231px -97px;
+}

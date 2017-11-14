@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    background-color: #2a2d35;
+    color: #f1f1f3;
+    align-items: flex-start;
+}
+
+.boja-zuta {
+    color: #9f7a23;
+}
+
+.vreme-lista {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    list-style-position: inside;
+
+}
+
+.list-item {
+    padding-left: 20px;
+    list-style-image: url(dot.png);
+}
+
+li:first-child {
+    list-style: none;
+}
+
+.vreme-lista-item {
+    padding-right: 5px;
+}

@@ -1,0 +1,148 @@
+.kvote {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    background-color: #0f1315;
+    color: #f1f1f3;
+}
+
+.konacan-ishod,
+.konacan-ishod-bez-neresenog,
+.oba-tima-daju-gol,
+.ukupno-golova,
+.ukupno-golova-p-n,
+.hendikep-golova {
+    display: flex;
+    flex-direction: row;
+    background-color: #1e2128;
+    padding: 3px 0;
+    margin: 1px 0;
+}
+
+.k-i-naslov,
+.k-i-b-n-naslov,
+.o-t-d-g-naslov,
+.u-g-naslov,
+.u-g-p-n-naslov,
+.h-g-naslov {
+    flex: 0 0 200px;
+    padding-left: 3px;
+    font-size: 12px;
+    opacity: 0.6;
+    line-height: 29px;
+}
+
+.k-i-kvote,
+.k-i-b-n-kvote,
+.o-t-d-g-kvote,
+.u-g-kvote,
+.u-g-p-n-kvote,
+.h-g-kvote {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.k-i-item {
+    display: flex;
+    flex: 1 0 auto;
+    text-align: left;
+    background-color: #35383e;
+    margin-left: 5px;
+    border-radius: 2px;
+    border-top: 1px solid #6b6d71;
+    padding: 7px 0;
+}
+
+.k-i-item-dif {
+    display: flex;
+    flex: 2 0 auto;
+    text-align: left;
+    background-color: #35383e;
+    margin-left: 5px;
+    border-top: 1px solid #6b6d71;
+    font-size: 12px;
+    /*opacity: 0.6;*/
+    padding: 7px 0;
+}
+
+.k-i-item-dif-cen {
+    display: flex;
+    padding: 0 30px;
+    background-color: #343128;
+    margin-left: 5px;
+    border-radius: 2px;
+    color: #9f7a23;
+    align-items: center;
+}
+
+.k-i-dobitak {
+    flex: 1 0 auto;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.k-i-kvote-item {
+    flex: 1 0 auto;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.konacan-ishod-total {
+    display: flex;
+    flex-direction: row;
+    background-color: #1e2128;
+    padding: 3px 0;
+    margin: 1px 0;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.k-i-t-naslov {
+    flex: 0 0 200px;
+    padding-left: 3px;
+    font-size: 12px;
+    /*opacity: 0.6;*/
+}
+
+.k-i-t-kvote {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    /*font-size: 12px;
+    opacity: 0.6;*/
+}
+
+.k-i-t-item {
+    display: flex;
+    flex: 1 0 auto;
+    text-align: left;
+    background-color: #35383e;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    border-radius: 2px;
+    border-top: 1px solid #6b6d71;
+    padding: 7px 0;
+}
+
+.k-i-t-item-col {
+    display: flex;
+    flex: 1 0 auto;
+
+}
+
+.k-i-t-dobitak {
+    flex: 1 0 auto;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.k-i-t-kvote-item {
+    flex: 1 0 auto;
+    text-align: right;
+    padding-right: 10px;
+}

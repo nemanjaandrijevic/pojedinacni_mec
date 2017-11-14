@@ -1,0 +1,72 @@
+.mec {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row;
+    height: 120px;
+    padding: 5px 10px;
+    background-color: #060a2e;
+    color: #f1f1f3;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 60px;
+    align-items: center;
+    height: 120px;
+
+}
+
+.m-sprite {
+    background-repeat: no-repeat;
+    background-image: url(sprite.png);
+    display: block;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.logo-sprite-home {
+    background-position: -226px -906px;
+}
+
+.logo-sprite-vizitor {
+    background-position: -298px -906px;
+}
+
+.teams {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    padding-left: 20px;
+}
+
+.home-team, .vizitor-team {
+    flex: 0 0 auto;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+}
+
+.trenutni-rezultat,
+.poluvreme,
+.crveni-kartoni,
+.zuti-kartoni,
+.korner {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    height: 120px;
+    font-size: 18px;
+    line-height: 60px;
+    padding-left: 22px;
+}
