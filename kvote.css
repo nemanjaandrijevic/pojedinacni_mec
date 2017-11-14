@@ -54,6 +54,7 @@
     border-radius: 2px;
     border-top: 1px solid #6b6d71;
     padding: 7px 0;
+    box-shadow: 1px 1px 1px black;
 }
 
 .k-i-item-dif {
@@ -66,6 +67,7 @@
     font-size: 12px;
     /*opacity: 0.6;*/
     padding: 7px 0;
+    box-shadow: 1px 1px 1px black;
 }
 
 .k-i-item-dif-cen {
@@ -127,6 +129,7 @@
     border-radius: 2px;
     border-top: 1px solid #6b6d71;
     padding: 7px 0;
+    box-shadow: 1px 1px 1px black;
 }
 
 .k-i-t-item-col {
