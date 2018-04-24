@@ -1,9 +1,9 @@
 .kvote {
-    display: flex;
-    flex-direction: column;
-    padding: 5px 5px;
-    background-color: #0f1315;
-    color: #f1f1f3;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px;
+  background-color: #0f1315;
+  color: #f1f1f3;
 }
 
 .konacan-ishod,
